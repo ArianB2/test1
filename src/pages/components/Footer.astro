@@ -1,0 +1,29 @@
+---
+import Social from "./Social.astro";
+const Email = "Email"
+---
+<style>
+    footer {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    
+    a[href^="mailto:"]
+    { 
+    padding: 0.5rem 1rem;
+      color: white;
+      background-color: #4c1d95;
+      text-decoration: none;
+    }
+    
+  </style>
+
+<footer>
+    
+    <a href="mailto:arianb113@outlook.com">{Email}</a></p>
+    <Social platform="Github" username = "ArianB2" />
+    <Social platform="LinkedIn" username = "arian-berisha-6399a8265" />
+    
+
+</footer>
